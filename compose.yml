@@ -1,0 +1,9 @@
+services:
+  vartest:
+    build:
+      context: .
+      args:
+        NODE_ENV: ${NODE_ENV:-buildtime}
+    environment:
+      NODE_ENV: ${NODE_ENV:-runtime}
+
