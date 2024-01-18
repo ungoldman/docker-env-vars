@@ -1,6 +1,4 @@
-# docker world
-
-## Docker, Environment Variables, and You
+# Docker, Environment Variables, and You
 
 experimenting with different approaches to supplying env vars to docker at build time and run time.
 
